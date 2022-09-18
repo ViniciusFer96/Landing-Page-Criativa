@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(90deg, rgb(79, 67, 67)0%, rgb(132, 115, 115)50%, rgb(231, 210, 210)100%);
+    color:black;
+    font-family: 'Inter', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    padding:15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200;   
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+li {
+    display:inline-block;
+    margin: 20px;
+}
+
+#conta {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#conta:hover {
+    background-color: rgb(132, 14, 201);
+    color:black;
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+
+p {
+    line-height: 20px;
+    max-width: 400px;
+    font-family: poppinslight;
+}
+
+span {
+    color: rgb(132, 14, 201);
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 25px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+img {
+    width: 600px;
+}
